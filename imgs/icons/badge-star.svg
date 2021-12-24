@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M13.9999 19.8976L19.7678 23.3331L18.2372 16.8582L23.3331 12.5016L16.6225 11.9398L13.9999 5.83328L11.3772 11.9398L4.66663 12.5016L9.76258 16.8582L8.23193 23.3331L13.9999 19.8976Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-4" transform="matrix(1.0000033 -5.198104E-10 5.198104E-10 1.0000033 0 0)">
+    <g id="Group-3" transform="matrix(0.9999993 4.855887E-07 -4.855887E-07 0.9999993 1.9073486E-05 0)">
+      <g id="Group-2" transform="matrix(1 1.3664376E-14 -1.3664376E-14 1 0 0)">
+        <path d="M-1.41014e-12 19.9998C-6.31342e-13 8.95423 8.95423 6.31342e-13 19.9998 1.41014e-12C31.0454 2.18894e-12 39.9997 8.95423 39.9997 19.9998C39.9997 31.0454 31.0454 39.9997 19.9998 39.9997C8.95423 39.9997 -2.18894e-12 31.0454 -1.41014e-12 19.9998Z" id="Ellipse" fill="#FFAE00" fill-rule="evenodd" stroke="none" />
+        <g id="icontogglestar_24px" transform="translate(5.999998 4.9998293)">
+          <path d="M13.9999 19.8976L19.7678 23.3331L18.2372 16.8582L23.3331 12.5016L16.6225 11.9398L13.9999 5.83328L11.3772 11.9398L4.66663 12.5016L9.76258 16.8582L8.23193 23.3331L13.9999 19.8976Z" id="-↳Color" fill="#000000" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

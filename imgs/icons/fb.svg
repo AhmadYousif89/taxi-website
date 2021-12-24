@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 0.8509804 0 0 0 0 0 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L21 0L21 21L0 21L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Facebook-F-icon" filter="url(#filter_1)">
+    <path d="M0 0L21 0L21 21L0 21L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M8.40001 18.9L8.40001 10.5L5.60001 10.5L5.60001 7.70001L8.40001 7.70001L8.40001 6.19641C8.40001 3.34951 9.78671 2.10001 12.1527 2.10001C13.286 2.10001 13.8852 2.18401 14.1687 2.22251L14.1687 4.90001L12.5552 4.90001C11.5507 4.90001 11.2 5.42991 11.2 6.50371L11.2 7.70001L14.1435 7.70001L13.7438 10.5L11.2 10.5L11.2 18.9L8.40001 18.9L8.40001 18.9Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>

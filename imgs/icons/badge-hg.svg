@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABHNCSVQICAgIfAhkiAAAAz5JREFUeJzt3T1rVEEYBeD3VfyIpURURCsLQQyaFCrpUm0MAdE/IRZW/hVBBMVC0tgpKdLYGg1+9YIfQYzYJKYxaDgWRri7rJmZ7Mw9k+Q8kOpu5ux9z95l7+7dxExERERERERERHYLz70gAOResybunnVme3IuJulUAJkKIFMBZCqATAWQqQCy7OcBIaHzhNyvs2vL76UjgEwFkKkAMhVApgLIGAV822wjgMOlggEMB26yVCr7fxgFfA1sP1Ew+1Rg+5eC2X1VdwSY2cWC2ZcD20P3LTtGAZ8C268WzL4W2P6xYHYdAFxH2OkCuSMRudO5c6sD4BCA34FBzBbInQtkrgHYnzu3ShHDYHjCmAXrPOAhKXczDxihrb8b+g+A12Z2gZXf44W7X2IEM8+EbxKze91gBdMKcPd5M3vEym+46+5vWeG0pyAzMwBDZjZvZiOku7BgZuPu/ouUzy3AzAzAMTN7Y2bHWo5eNLMxd//ecm4X+ruh7r5kZh0z+9Fi7KqZTbGHXxUAowCWW3i9vwLgPHt/q9RCCRp+SMESNPxYBUrQ8FNlLEHD36oMJWj4gxqgBA0/l40SVnfi8OknYgnWE24L2177Vq8BnoKWAYyy7/+2NsDwVcKgMgxfJWxVxuGrhFQAxjIPv1nCGHv/qob0R35n42ctoQQdCf0kDn8NQKfxuyphEPh71dpK5ADRHH5jjU7C768AYH0MWhcAwwAWIwfX9cjvs1bKkfAZwJE297U6AA4AWMgx/MaaKSW8BLCvjX2tEoD7kYMCgMmEdScT1r1Tch+rBeBc5ICiHvl91o89EtYBnCmxj1UDMFtq+I2M2BIe59y36gEYjxgKkOF6fQDTkVm1XKdaHoCZiIHcyph3OyLvXq68qgHYi/Br/ucFcl8FMnfHRVoAJiIejRMFcmOeilp/r4jxqdFUYPs7d3+WO9Tdn5rZh8DNruTODWEUEHrJN1MwO/Q1pLMFs/tiFHA0sH2uYHZo7eMFs/tiFBDayZJfln4f2H6yYHZf+otZ3X66+1DJ/F66dKPbwbYDVQCZCiBTAWQqgEz/PyCR/n/ADqMCyFQAmQogUwFkKoBMBYiIiIiIiIiIiLTkDw5z0cKR3ZIFAAAAAElFTkSuQmCC" id="img_1" />
+    <pattern patternUnits="objectBoundingBox" y="-0%" height="100%" width="100%" id="pattern_1">
+      <use xlink:href="#img_1" transform="scale(0.22916667,0.22916667)" />
+      <path d="M0 0L22 0L22 22L0 22L0 0Z" id="ShapePath" fill="#000000" fill-rule="evenodd" stroke="none" />
+    </pattern>
+  </defs>
+  <path d="M9.53674e-06 19.9999C1.52588e-05 8.95426 8.95428 4.76837e-06 19.9999 9.53674e-06C31.0455 1.52588e-05 39.9998 8.95428 39.9998 19.9999C39.9998 31.0455 31.0455 39.9998 19.9999 39.9998C8.95426 39.9998 3.8147e-06 31.0455 9.53674e-06 19.9999Z" id="Ellipse" fill="#FFAE00" fill-rule="evenodd" stroke="none" />
+  <path d="M8.99996 7.99982L31 7.99982L31 29.9998L8.99996 29.9998L8.99996 7.99982Z" id="ShapePath" fill="url(#pattern_1)" fill-rule="evenodd" stroke="none" />
+</svg>

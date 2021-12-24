@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 0.69803923 0 0 0 0 0 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Gmail-icon-3" filter="url(#filter_1)">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M4.5 5.27344C4.26855 5.27344 4.05176 5.31738 3.84375 5.38184L6.0293 6.77344L17.9707 6.77344L20.1563 5.38184C19.9482 5.31738 19.7314 5.27344 19.5 5.27344L4.5 5.27344ZM3.08496 5.78906C2.57813 6.20215 2.25 6.82324 2.25 7.52344L2.25 17.2734C2.25 18.5127 3.26074 19.5234 4.5 19.5234L19.5 19.5234C20.7393 19.5234 21.75 18.5127 21.75 17.2734L21.75 7.52344C21.75 6.82324 21.4219 6.20215 20.915 5.78906L12 11.4609L3.08496 5.78906ZM4.5 9.33398L12 14.1094L19.5 9.33398L19.5 18.0234L4.5 18.0234L4.5 9.33398Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
