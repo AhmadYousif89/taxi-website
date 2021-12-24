@@ -80,6 +80,7 @@ img {
   /* position: relative; */
   list-style: none;
   padding: 0.5em;
+  align-items: center;
 }
 .nav__link {
   text-decoration: none;
