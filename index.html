@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
     <title>Cab-Hub</title>
   </head>
   <body>
@@ -13,17 +14,20 @@
         <header class="nav grid">
           <p class="nav__titel"><span>cab</span><span>hub</span><br/>call and relax</p>
           <a id="menu"><img src="imgs/icons/menu.svg" alt="menu pic"></a>
-          <ul class="nav__list grid show">
-            <li class="nav__item"><a href="#" class="nav__link home">home</a></li>
-            <li class="nav__item"><a href="#app" class="nav__link">features</a></li>
-            <li class="nav__item"><a href="#contact" class="nav__link">contacts</a></li>
-            <li class="nav__item"><a href="#book" class="nav__link">order now</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
-            <ul class=" login grid ">
-              <li class="nav__item flex"><a href="#" class="nav__link">sign in</a><img src="imgs/icons/login.svg" alt="pic"> </li>
-              <li class="nav__item flex"><a href="#" class="nav__link sign-up"> sign out </a> <img src="imgs/icons/logout.svg" alt="pic"></li>
+          <div class="list__container grid show">
+            <ul class="nav__list grid ">
+              <li class="nav__item"><a href="#" class="nav__link home">home</a></li>
+              <li class="nav__item"><a href="#app" class="nav__link">features</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">contacts</a></li>
+              <li class="nav__item"><a href="#book" class="nav__link">order now</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
             </ul>
-          </ul>
+            <ul class="nav__list login grid">
+              <li class="nav__item flex">
+                <a href="#" class="nav__link sign-up">  sign up </a></li>
+                <li class="nav__item flex"><img src="imgs/icons/login.svg" alt="pic"> <a href="#" class="nav__link">sign in</a></li>
+            </ul>
+          </div>
         </header>
 
         <div class="sec__1-titel">
@@ -38,8 +42,8 @@
 
         <div class="sec__1-desc grid">
           <div class="sec__1-content">
-            <h3>best in city</h3>
-            <h2>trusted cab servies<br>in newyork</h2>
+            <h2>trusted cab service</h2>
+            <h3>best in newyork</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
               animi explicabo nostrum optio ab deleniti soluta eum cum dolorem
@@ -60,7 +64,7 @@
                 <input type="text" id="loc" size="13">
               </div>
               <div>
-                <label for="dt">date:</label>
+                <label for="dt">date:</label><br>
                 <input type="text" id="dt" size="13">
                 <label for="st">start:</label><br>
                 <input type="time" id="st" >
@@ -97,7 +101,9 @@
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, eius.</p>
               <h3 >$2,5/km</h3>
               <a href="#" class="btn">read more</a>
-              <div class="badge"><img src="imgs/icons/badge.svg" alt=""></div>
+              <div class="badge">
+                <img src="imgs/icons/badge.svg" alt="pic">
+              </div>
             </div>
           </div>
           <div class="card col__3 grid">
