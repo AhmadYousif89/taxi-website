@@ -44,7 +44,7 @@
   .sec__5-content {
     grid-template-columns: auto auto;
   }
-  .hide {
+  .reviews.show {
     display: block;
   }
   .sec__6 {

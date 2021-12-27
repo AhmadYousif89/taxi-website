@@ -34,9 +34,6 @@ img {
 .show {
   display: none;
 }
-.hide {
-  display: none;
-}
 
 .nav {
   background: #000;
@@ -243,6 +240,7 @@ input {
   margin: 2em;
   text-align: center;
   justify-items: center;
+  border: #000 1px solid;
 }
 .col-content > * {
   margin: 0.5em 0;
@@ -263,6 +261,8 @@ input {
 
 .active {
   background: var(--clr-ylw);
+  border: #000 2px dashed;
+  box-shadow: 0 5px 10px 1px #000;
 }
 .active h3 {
   color: var(--clr-black);
@@ -277,7 +277,7 @@ input {
   left: 0;
   margin: 0;
 }
-.badge img{
+.badge img {
   width: 65px;
 }
 .sec__3 {
