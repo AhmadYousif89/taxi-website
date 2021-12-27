@@ -277,7 +277,9 @@ input {
   left: 0;
   margin: 0;
 }
-
+.badge img{
+  width: 65px;
+}
 .sec__3 {
   background: url("imgs/ny-2.jpg") top center / cover no-repeat;
   justify-items: center;
