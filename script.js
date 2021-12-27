@@ -33,7 +33,9 @@ col1.addEventListener("mouseenter", () => {
 col1.addEventListener("mouseleave", () => {
   card1.classList.remove("active");
 });
+
 // col 2
+document.querySelector(".badge").classList.add("show");
 col2.addEventListener("mouseenter", () => {
   if (card2.classList.contains("active")) {
     card2.classList.remove("active");
@@ -46,6 +48,7 @@ col2.addEventListener("mouseleave", () => {
   card2.classList.remove("active");
   document.querySelector(".badge").classList.add("show");
 });
+
 // col 3
 col3.addEventListener("mouseenter", () => {
   if (card3.classList.contains("active")) {
