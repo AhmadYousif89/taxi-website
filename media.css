@@ -24,7 +24,7 @@
     font-size: 0.8rem;
   }
   .sec__1-img {
-    max-width: 50%;
+    max-width: 400px;
   }
   .sec__1-desc {
     grid-template-columns: 50% auto;
@@ -60,7 +60,13 @@
 
 @media (min-width: 768px) {
   .list__container {
-    font-size: .9rem;
+    font-size: 0.9rem;
+  }
+  .sec__1-img {
+    max-width: 500px;
+  }
+  .sec__1-desc {
+    margin-top: 3em;
   }
   .sec__2-container {
     grid-template-columns: auto auto auto;
@@ -81,8 +87,11 @@
     max-width: 1400px;
     margin: 0 auto;
   }
+  .sec__1-img {
+    max-width: 600px;
+  }
   .sec__1-desc {
-    margin-top: 5em;
+    margin-top: 4em;
   }
   .sec__1-content {
     font-size: 1.5rem;

@@ -103,13 +103,13 @@ img {
 }
 .sign-up:hover {
   color: var(--clr-black);
-  opacity: 1;
 }
 
 .sec__1-container {
-  background: url("imgs/ny-3.jpg") top center / cover no-repeat;
+  background: url("imgs/ny-3.jpg") center / cover no-repeat;
   grid-template-rows: auto 1fr;
   grid-template-columns: 1fr 1fr;
+  object-fit: cover ;
 }
 .sec__1-titel {
   text-align: center;
@@ -131,7 +131,7 @@ img {
   letter-spacing: 4px;
 }
 .sec__1-img {
-  width: 60%;
+  max-width: 300px;
   justify-self: center;
   align-self: start !important;
   grid-row: 3 / 5;
@@ -139,7 +139,7 @@ img {
   z-index: 1;
 }
 .sec__1-img img {
-  margin-bottom: 4em;
+  padding-bottom: 4em;
 }
 .sec__1-desc {
   background: var(--clr-ylw);
@@ -172,7 +172,7 @@ img {
   font-weight: 500;
 }
 .btn:hover {
-  transition: var(--transtime);
+  color: var(--clr-orng);
 }
 
 .sec__1-form {
