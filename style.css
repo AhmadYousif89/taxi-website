@@ -79,7 +79,7 @@ img {
   list-style: none;
   align-items: center;
   padding: 0.5em;
-  margin: 0 .5em;
+  margin: 0 0.5em;
 }
 .nav__link {
   text-decoration: none;
@@ -109,15 +109,14 @@ img {
   opacity: 1;
 }
 
-
 .sec__1-container {
   background: url("imgs/ny-3.jpg") top center / cover no-repeat;
-  grid-template-rows: 100px minmax(100px, 1fr);
+  grid-template-rows: auto 1fr;
   grid-template-columns: 1fr 1fr;
 }
 .sec__1-titel {
   text-align: center;
-  padding: 2em;
+  padding: 3em;
   color: var(--clr-white);
   grid-column: 1/3;
 }
@@ -228,7 +227,7 @@ input {
   color: var(--clr-ylw);
 }
 
-.card-img {
+.car-img {
   width: 250px;
   justify-self: center;
   grid-column: 1 / 2;
@@ -236,6 +235,7 @@ input {
   z-index: 1;
 }
 .col-content {
+  position: relative;
   background: var(--card-bg);
   grid-row: 2 / span 2;
   grid-column: 1 / 2;
@@ -243,7 +243,6 @@ input {
   margin: 2em;
   text-align: center;
   justify-items: center;
-  /* width: minmax(auto,200px); */
 }
 .col-content > * {
   margin: 0.5em 0;
@@ -262,15 +261,13 @@ input {
   padding: 1em;
 }
 
-.col__2 .col-content {
+.active {
   background: var(--clr-ylw);
-  position: relative;
 }
-
-.col__2 .col-content h3 {
+.active h3 {
   color: var(--clr-black);
 }
-.col__2 .col-content a {
+.active a {
   background: var(--clr-black);
   color: var(--clr-white);
 }
@@ -278,10 +275,6 @@ input {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 0;
-  /* width: 20%; */
-}
-.badge img {
   margin: 0;
 }
 
@@ -395,16 +388,15 @@ input {
   padding: 2em;
 }
 
-.col {
+.col-f {
   padding: 0.5em;
-  /* margin: 0 auto; */
   max-width: 80%;
 }
-.col h3 {
+.col-f h3 {
   border-bottom: 2px solid var(--clr-ylw);
   padding-bottom: 1em;
 }
-.col p {
+.col-f p {
   text-transform: none;
   font-size: 0.8rem;
   margin: 1em 0;
