@@ -260,8 +260,10 @@ input {
 
 .active {
   background: var(--clr-ylw);
-  border: #000 2px dashed;
   box-shadow: 0 5px 10px 1px #000;
+  border: 1px dashed;
+  border-radius: 25px;
+  animation: hub .3s ;
 }
 .active h3 {
   color: var(--clr-black);
@@ -269,6 +271,17 @@ input {
 .active a {
   background: var(--clr-black);
   color: var(--clr-white);
+}
+@keyframes hub {
+  0% {
+  transform: rotate(0deg);
+  }
+  25% {
+  transform:scale(1.03);
+  }
+    0% {
+  transform: rotate(0deg);
+  }
 }
 .badge {
   position: absolute;
