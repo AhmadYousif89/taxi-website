@@ -5,30 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css" />
     <title>Cab-Hub</title>
   </head>
   <body>
+    <header class="nav grid">
+      <p class="nav__titel">
+        <span>cab</span><span>hub</span><br />call and relax
+      </p>
+      <a id="menu"><img src="imgs/icons/menu.svg" alt="menu pic" /></a>
+      <div class="list__container grid show">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#" class="nav__link home">home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#app" class="nav__link">features</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">contacts</a>
+          </li>
+          <li class="nav__item">
+            <a href="#book" class="nav__link">order now</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">about</a>
+          </li>
+        </ul>
+        <ul class="nav__list login grid">
+          <li class="nav__item flex">
+            <a href="#" class="nav__link sign-up"> sign up </a>
+          </li>
+          <li class="nav__item flex">
+            <img src="imgs/icons/login.svg" alt="pic" />
+            <a href="#" class="nav__link">sign in</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
     <div class="page__container">
-      <section class="sec__1-container grid ">
-        <header class="nav grid">
-          <p class="nav__titel"><span>cab</span><span>hub</span><br/>call and relax</p>
-          <a id="menu"><img src="imgs/icons/menu.svg" alt="menu pic"></a>
-          <div class="list__container grid show">
-            <ul class="nav__list grid ">
-              <li class="nav__item"><a href="#" class="nav__link home">home</a></li>
-              <li class="nav__item"><a href="#app" class="nav__link">features</a></li>
-              <li class="nav__item"><a href="#contact" class="nav__link">contacts</a></li>
-              <li class="nav__item"><a href="#book" class="nav__link">order now</a></li>
-              <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
-            </ul>
-            <ul class="nav__list login grid">
-              <li class="nav__item flex">
-                <a href="#" class="nav__link sign-up">  sign up </a></li>
-                <li class="nav__item flex"><img src="imgs/icons/login.svg" alt="pic"> <a href="#" class="nav__link">sign in</a></li>
-            </ul>
-          </div>
-        </header>
+
+      <section class="sec__1-container grid">
 
         <div class="sec__1-titel">
           <p class="titel-p1">book cab now</p>
@@ -37,13 +55,13 @@
         </div>
 
         <div class="sec__1-img">
-          <img src="imgs/bmw.png" alt="taxi-bm-yellow" />
+          <img src="imgs/business.png" alt="taxi-bm-yellow" />
         </div>
 
         <div class="sec__1-desc grid">
           <div class="sec__1-content">
             <h2>trusted cab service</h2>
-            <h3>best in newyork</h3>
+            <h3>best of newyork city</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
               animi explicabo nostrum optio ab deleniti soluta eum cum dolorem
@@ -54,26 +72,20 @@
           </div>
           <div class="sec__1-form">
             <h2>book a <span>cab</span></h2>
-            <form action="#" id="book" class="form-i grid">
+            <form action="#" id="book" class="form-i">
               <div>
                 <label for="name">name:</label>
-                <input type="text" id="name"size="13">
+                <input type="text" id="name" />
                 <label for="email">email:</label>
-                <input type="email" id="email" size="13">
+                <input type="email" id="email" />
+                <label for="mob">mobile:</label>
+                <input type="number" id="mob" />
                 <label for="loc">location:</label>
-                <input type="text" id="loc" size="13">
-              </div>
-              <div>
-                <label for="dt">date:</label><br>
-                <input type="text" id="dt" size="13">
-                <label for="st">start:</label><br>
-                <input type="time" id="st" >
-                <br><label for="st">end:</label><br>
-                <input type="time" id="st" >
-              </div>
-              <div>
+                <input type="text" id="loc" />
                 <label for="cab">choose vehicle:</label>
-                <input type="" id="cab" name="cab" size="33">
+                <input type="" id="cab" name="cab" />
+                <label for="dt">date:</label><br />
+                <input type="date" id="dt" />
               </div>
               <a href="#" class="form-btn btn">submit</a>
             </form>
@@ -85,33 +97,50 @@
         <h2 class="sec__2-titel"><span>our</span><br />tariffs</h2>
         <div class="sec__2-container grid">
           <div class="card col__1 grid">
-            <img src="imgs/eco.png" alt="taxi cab">
+            <div class="card-img">
+              <img src="imgs/eco.png" alt="taxi cab" />
+            </div>
             <div class="col-content grid">
               <h2>economy class</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, eius.</p>
-              <h3 >$1,5/km</h3>
+              <h4>* comfort *</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Soluta, eius.
+              </p>
+              <h3>$1,5/km</h3>
               <a href="#" class="btn">read more</a>
             </div>
           </div>
           <div class="card col__2 grid">
-            <img src="imgs/standard.png" alt="taxi cab">
+            <div class="card-img">
+              <img src="imgs/standard.png" alt="taxi cab" />
+            </div>
             <div class="col-content grid">
               <h2>standard class</h2>
-              <h3>* best value *</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, eius.</p>
-              <h3 >$2,5/km</h3>
+              <h4>* best value *</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Soluta, eius.
+              </p>
+              <h3>$2,5/km</h3>
               <a href="#" class="btn">read more</a>
               <div class="badge">
-                <img src="imgs/icons/badge.svg" alt="pic">
+                <img src="imgs/icons/badge.svg" alt="pic" />
               </div>
             </div>
           </div>
           <div class="card col__3 grid">
-            <img src="imgs/business.png" alt="taxi cab">
+            <div class="card-img">
+              <img src="imgs/business.png" alt="taxi cab" />
+            </div>
             <div class="col-content grid">
               <h2>businees class</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, eius.</p>
-              <h3 >$4/km</h3>
+              <h4>* premium *</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Soluta, eius.
+              </p>
+              <h3>$4/km</h3>
               <a href="#" class="btn">read more</a>
             </div>
           </div>
@@ -119,34 +148,49 @@
       </section>
 
       <section class="sec__3 grid">
-        <h2 class="sec__3-titel"><span>we do best</span><br> than you think</h2>
-        <div class="sec__3-content grid">
+        <h2 class="sec__3-titel">
+          <span>we do best</span><br />
+          than you think
+        </h2>
+        <div class="sec__3-container grid">
           <div class="info">
-            <img src="imgs/icons/badge-star.svg" alt="pic">
+            <img src="imgs/icons/badge-star.svg" alt="pic" />
             <div class="info-content">
               <h3>home pickup</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, rerum.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                rerum.
+              </p>
             </div>
           </div>
           <div class="info">
-            <img src="imgs/icons/hourglass-1.svg" alt="pic">
+            <img src="imgs/icons/hourglass.svg" alt="pic" />
             <div class="info-content">
               <h3>fast booking</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, rerum.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                rerum.
+              </p>
             </div>
           </div>
           <div class="info">
-            <img src="imgs/icons/gift-box1.svg" alt="pic">
+            <img src="imgs/icons/bonuse.svg" alt="pic" />
             <div class="info-content">
               <h3>bonuses for ride</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, rerum.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                rerum.
+              </p>
             </div>
           </div>
           <div class="info">
-            <img src="imgs/icons/badge-gear.svg" alt="pic">
+            <img src="imgs/icons/badge-gear.svg" alt="pic" />
             <div class="info-content">
               <h3>gps searching</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, rerum.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                rerum.
+              </p>
             </div>
           </div>
         </div>
@@ -154,98 +198,156 @@
       </section>
 
       <section class="sec__4">
-        <h2 class="sec__4-titel"><span>download</span><br> best cab servies</h2>
+        <h2 class="sec__4-titel">
+          <span>download</span><br />
+          best cab servies
+        </h2>
         <div class="sec__4-content grid">
           <div class="app-desc" id="app">
-            <h3>Download the Cab voucher app free! <br>Get Exciting New Offers</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, iure at beatae quis dolor nostrum minima debitis consectetur nihil magnam.</p>
+            <h3>
+              Download the Cab voucher app free! <br />Get Exciting New Offers
+            </h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+              iure at beatae quis dolor nostrum minima debitis consectetur nihil
+              magnam.
+            </p>
             <div class="app-store-btn grid">
-              <a href="#"><img src="imgs/icons/Google_Play-1.svg" alt=""></a>
-              <a href="#"><img src="imgs/icons/App_Store-1.svg" alt=""></a>
+              <a href="https://play.google.com/store"><img src="imgs/icons/Google_Play.svg" alt="" /></a>
+              <a href="https://www.apple.com/store"><img src="imgs/icons/App_Store.svg" alt="" /></a>
             </div>
           </div>
-          <img src="imgs/phone-1.png" alt="holding mobile">
+          <img src="imgs/phone.png" alt="holding mobile" />
         </div>
       </section>
 
       <section class="sec__5">
-        <h2 class="sec__5-titel"><span>happy client's</span><br> testimonials</h2>
+        <h2 class="sec__5-titel">
+          <span>happy client's</span><br />
+          testimonials
+        </h2>
         <div class="sec__5-content grid">
           <div class="reviews">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo quia, minima esse sapiente est porro pariatur atque doloremque quidem.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              quo quia, minima esse sapiente est porro pariatur atque doloremque
+              quidem.
+            </p>
             <div class="client-i grid">
-              <img src="imgs/icons/badge-cl.svg" alt="pic">
-              <h4><span>john doe</span><br>businees man</h4>
+              <img src="imgs/icons/badge-cl.svg" alt="pic" />
+              <h4><span>john doe</span><br />client</h4>
             </div>
           </div>
           <div class="reviews">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo quia, minima esse sapiente est porro pariatur atque doloremque quidem.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              quo quia, minima esse sapiente est porro pariatur atque doloremque
+              quidem.
+            </p>
             <div class="client-i grid">
-              <img src="imgs/icons/badge-cl.svg" alt="pic">
-              <h4><span>john doe</span><br>businees man</h4>
+              <img src="imgs/icons/badge-cl.svg" alt="pic" />
+              <h4><span>john doe</span><br />client</h4>
+            </div>
+          </div>
+          <div class="reviews hide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              quo quia, minima esse sapiente est porro pariatur atque doloremque
+              quidem.
+            </p>
+            <div class="client-i grid">
+              <img src="imgs/icons/badge-cl.svg" alt="pic" />
+              <h4><span>john doe</span><br />client</h4>
+            </div>
+          </div>
+          <div class="reviews hide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              quo quia, minima esse sapiente est porro pariatur atque doloremque
+              quidem.
+            </p>
+            <div class="client-i grid">
+              <img src="imgs/icons/badge-cl.svg" alt="pic" />
+              <h4><span>john doe</span><br />client</h4>
             </div>
           </div>
         </div>
-       </section>
+      </section>
 
-       <section id="contact" class="sec__6">
-         <h2>we are ready to take your call 24 hours, 7 days!</h2>
-         <p>+123 4567 8900</p>
-       </section>
-
-       <footer class="footer grid">
-         <div class="footer__content grid">
-          
-            <div class="col">
-             <h3>contact</h3>
-             <div class="contact">
-               <div class="contact-i grid">
-                 <img src="imgs/icons/marker.svg" alt="pic">
-                 <p>+123, Main Street, Your City, NewYork, USA 564879.</p>
-               </div>
-               <div class="contact-i grid">
-                 <img src="imgs/icons/mob-1.svg" alt="pic">
-                 <p>+123 4567 8900</p>
-               </div>
-               <div class="contact-i grid">
-                 <img src="imgs/icons/mail-1.svg" alt="pic">
-                 <p>support@carhub.com</p>
-               </div>
-               <div class="contact-i grid">
-                 <img src="imgs/icons/home.svg" alt="pic">
-                 <p>www.carhub.com</p>
-               </div>
-             </div>
-             </div>
-           <div class="col download">
-             <h3>download</h3>
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati qui fugiat corporis, adipisci soluta accusamus.</p>
-             <div class="app">
-                <div class="store grid">
-                  <p>android users</p>
-                  <a href="https://play.google.com/store"><img src="imgs/icons/android.svg" alt="pic"></a>
-                </div>
-                <div class="store grid">
-                  <p>ios users</p>
-                  <a href="https://www.apple.com/store"><img src="imgs/icons/ios.svg" alt="pic"></a>
-                </div>
-             </div>
-           </div>
-            <div class="col" id="about">
-             <h3>about cab hub</h3>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.a neque omnisporro doloribus rem dolores itaque nisi facilis consequuntur assumenda nemo aliquid.</p>
-             <div class="social flex">
-               <a href="https://facebook.com"><img src="imgs/icons/fb.svg" alt="pic"></a>
-               <a href="https://google.com"><img src="imgs/icons/g.svg" alt="pic"></a>
-               <a href="https://twitter.com"><img src="imgs/icons/tw.svg" alt="pic"></a>
-               <a href="https://instagram.com"><img src="imgs/icons/insta.svg" alt="pic"></a>
-             </div>
-           </div>
-           </div>
-           <p id="tm">copyright &copy; 2021-2022</p>
-         </div>
-       </footer>
-       <script src="script.js"></script>
+      <section id="contact" class="sec__6">
+        <h2>we are ready to take your call 24 hours, 7 days!</h2>
+        <p>+123 4567 8900</p>
+      </section>
     </div>
+    <footer class="footer grid">
+      <div class="footer__container grid">
+        <div class="col download">
+          <h3>download</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            qui fugiat corporis, adipisci soluta accusamus.
+          </p>
+          <div class="app">
+            <div class="store grid">
+              <p>android users</p>
+              <a href="https://play.google.com/store"
+                ><img src="imgs/icons/android.svg" alt="pic"
+              /></a>
+            </div>
+            <div class="store grid">
+              <p>ios users</p>
+              <a href="https://www.apple.com/store"
+                ><img src="imgs/icons/ios.svg" alt="pic"
+              /></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col contact">
+          <h3>contact</h3>
+          <div class="contact-i grid">
+            <img src="imgs/icons/marker.svg" alt="pic" />
+            <p>+123, Main Street, Your City, NewYork, USA 564879.</p>
+          </div>
+          <div class="contact-i grid">
+            <img src="imgs/icons/mob.svg" alt="pic" />
+            <p>+123 4567 8900</p>
+          </div>
+          <div class="contact-i grid">
+            <img src="imgs/icons/mail.svg" alt="pic" />
+            <p>support@carhub.com</p>
+          </div>
+          <div class="contact-i grid">
+            <img src="imgs/icons/home.svg" alt="pic" />
+            <p>www.carhub.com</p>
+          </div>
+        </div>
+
+        <div class="col" id="about">
+          <h3>about us</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.a neque
+            omnisporro doloribus rem dolores itaque nisi facilis consequuntur
+            assumenda nemo aliquid.
+          </p>
+          <div class="social flex">
+            <a href="https://facebook.com"
+              ><img src="imgs/icons/fb.svg" alt="pic"
+            /></a>
+            <a href="https://google.com"
+              ><img src="imgs/icons/g.svg" alt="pic"
+            /></a>
+            <a href="https://twitter.com"
+              ><img src="imgs/icons/tw.svg" alt="pic"
+            /></a>
+            <a href="https://instagram.com"
+              ><img src="imgs/icons/insta.svg" alt="pic"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p id="tm">copyright &copy; 2021-2022</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
