@@ -9,17 +9,17 @@ const col2 = document.querySelector(".col__2");
 const col3 = document.querySelector(".col__3");
 
 menuBtn.addEventListener("click", () => {
-  if (navMenu.classList.contains("show")) {
-    navMenu.classList.remove("show");
+  if (navMenu.classList.contains("hide")) {
+    navMenu.classList.remove("hide");
     menuBtn.innerHTML = `<img src="imgs/icons/menu-x.svg" alt="menu pic">`;
   } else {
-    navMenu.classList.add("show");
+    navMenu.classList.add("hide");
     menuBtn.innerHTML = `<img src="imgs/icons/menu.svg" alt="menu pic">`;
   }
 });
 
 navBar.addEventListener("mouseleave", () => {
-  navMenu.classList.add("show");
+  navMenu.classList.add("hide");
   menuBtn.innerHTML = `<img src="imgs/icons/menu.svg" alt="menu pic">`;
 });
 
@@ -35,18 +35,18 @@ col1.addEventListener("mouseleave", () => {
 });
 
 // col 2
-document.querySelector(".badge").classList.add("show");
+document.querySelector(".badge").classList.add("hide");
 col2.addEventListener("mouseenter", () => {
   if (card2.classList.contains("active")) {
     card2.classList.remove("active");
   } else {
     card2.classList.add("active");
-    document.querySelector(".badge").classList.remove("show");
+    document.querySelector(".badge").classList.remove("hide");
   }
 });
 col2.addEventListener("mouseleave", () => {
   card2.classList.remove("active");
-  document.querySelector(".badge").classList.add("show");
+  document.querySelector(".badge").classList.add("hide");
 });
 
 // col 3

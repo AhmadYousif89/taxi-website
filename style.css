@@ -31,15 +31,17 @@ img {
 .flex {
   display: flex;
 }
-.show {
+.hide {
   display: none;
 }
 
 .nav {
+  position: relative;
   background: #000;
   grid-template-columns: auto auto;
   padding: 1em;
 }
+
 .nav__titel {
   font-size: 0.7rem;
   color: var(--clr-white);
