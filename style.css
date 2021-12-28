@@ -85,7 +85,7 @@ img {
 .nav__link:hover {
   color: var(--clr-orng);
   opacity: 0.9;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--clr-white);
 }
 
 .login {
@@ -325,7 +325,9 @@ input {
   color: var(--clr-black);
   background: var(--clr-ylw);
 }
-
+.sec3-btn:hover {
+  background: var(--clr-black);
+}
 .sec__4-titel {
   text-align: center;
   padding: 2em;
@@ -371,7 +373,7 @@ input {
 }
 .client-i {
   grid-template-columns: 20% 80%;
-  gap: .5em;
+  gap: 0.5em;
 }
 .client-i img {
   place-self: center;
