@@ -62,7 +62,7 @@
   .list__container {
     font-size: 0.9rem;
   }
-   .sec__1-titel {
+  .sec__1-titel {
     padding: 6em;
   }
   .sec__1-img {
@@ -79,8 +79,6 @@
   }
   .footer__container {
     padding: 2em;
-  }
-  .footer__container {
     justify-items: center;
   }
 }
@@ -99,7 +97,7 @@
     padding: 0;
     justify-content: space-between;
   }
-   .sec__1-titel {
+  .sec__1-titel {
     padding: 8em;
   }
   .sec__1-img {
