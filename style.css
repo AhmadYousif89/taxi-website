@@ -40,8 +40,7 @@ img {
 }
 
 .nav {
-  position: relative;
-  background: #000;
+  background: var(--clr-black);
   grid-template-columns: auto auto;
   padding: 1em;
 }
@@ -69,14 +68,10 @@ img {
 }
 
 .list__container {
-  background: #000000ad;
   grid-template-columns: auto auto;
   grid-column: 1/-1;
-  margin: 1em 0;
-  padding: 0.5em;
+  padding: 1em;
   font-size: 0.7rem;
-  border-radius: 15px;
-  z-index: 2;
 }
 .nav__item {
   list-style: none;
