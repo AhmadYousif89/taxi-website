@@ -22,7 +22,6 @@ img {
   --clr-ylw: #ffae00;
   --clr-orng: #ff8700;
   --card-bg: rgb(206, 206, 206);
-  --transtime: 0.3s;
 }
 
 .grid {
@@ -33,6 +32,11 @@ img {
 }
 .hide {
   display: none;
+}
+
+.page__container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .nav {
@@ -107,6 +111,7 @@ img {
 }
 .sign-up:hover {
   color: var(--clr-black);
+  border: 0;
 }
 
 .sec__1-container {
@@ -130,8 +135,8 @@ img {
   padding: 0.25em;
   margin: 0.25em auto;
   width: fit-content;
-  border-left: 1px rgb(255, 255, 255) solid;
-  border-right: 1px rgb(255, 255, 255) solid;
+  border-left: 1px var(--clr-white) solid;
+  border-right: 1px var(--clr-white) solid;
 }
 .t-h1::after,
 .t-h1::before {
@@ -141,18 +146,18 @@ img {
   height: 1px;
 }
 .t-h1::before {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--clr-ylw);
   right: 105%;
   top: 50%;
 }
 .t-h1::after {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--clr-ylw);
   left: 105%;
   top: 50%;
 }
 .t-p2 {
   font-size: 0.6rem;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 .sec__1-img {
   max-width: 300px;
@@ -287,7 +292,9 @@ input {
   box-shadow: 0 5px 10px 1px #000;
   border: 1px dashed;
   border-radius: 25px;
-  animation: hub 0.3s;
+  transform: scale(1.03);
+  transform: translateZ(0);
+  transition: 0.25s;
 }
 .active h3 {
   color: var(--clr-black);
@@ -296,18 +303,7 @@ input {
   background: var(--clr-black);
   color: var(--clr-white);
 }
-@keyframes hub {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: scale(1.03);
-    backface-visibility: hidden;
-  }
-  0% {
-    transform: rotate(0deg);
-  }
-}
+
 .badge {
   position: absolute;
   bottom: 0;

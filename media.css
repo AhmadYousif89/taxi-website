@@ -86,9 +86,18 @@
 }
 
 @media (min-width: 1024px) {
-  .page__container {
-    max-width: 1400px;
-    margin: 0 auto;
+  .nav {
+    padding: 2em;
+  }
+  a.show {
+    display: none;
+  }
+  .list__container.hide {
+    display: flex;
+    grid-column: 2/3;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
   }
    .sec__1-titel {
     padding: 8em;
