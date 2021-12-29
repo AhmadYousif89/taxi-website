@@ -115,7 +115,7 @@ img {
 }
 
 .sec__1-container {
-  background: url("imgs/ny-3.jpg") center / cover no-repeat;
+  background: url("imgs/ny-3.jpg") left / cover no-repeat;
 }
 .sec__1-titel {
   text-align: center;
